@@ -5,8 +5,8 @@ import React from "react";
 export const Cards = () => {
   return (
 
-    <div className="row row-cols-1 row-cols-md-3 g-4">
-    <div className="col">
+    <div className="row">
+    <div className="col-3 w-100 p-5">
       <div className="card h-100">
         <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" className="card-img-top" alt="Skyscrapers"/>
         <div className="card-body">

@@ -1,9 +1,8 @@
 import React from "react";
-import {Navbar} from "../component/Navbar/navbar";
-import {Jumbotron} from "../component/Jumbotron/jumbotron";
-import {Cards} from "../component/Cards/cards";
-import {Footer} from "../component/Footer/footer";
-import { container } from "webpack";
+import Navbar from "./Navbar/navbar.jsx";
+import Jumbotron from "./Jumbotron/jumbotron.jsx";
+import {Cards} from "./Cards/cards";
+import {Footer} from "./Footer/footer";
 
 
 //create your first component
@@ -22,7 +21,8 @@ const Home = () => {
 			</div>
 			<Footer/>
 		</div>
-)};
+);
+};
 
 export default Home;
 
