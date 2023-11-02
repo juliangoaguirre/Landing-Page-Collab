@@ -1,27 +1,27 @@
 import React from "react";
 import {Navbar} from "../component/Navbar/navbar";
+import {Jumbotron} from "../component/Jumbotron/jumbotron";
 import {Cards} from "../component/Cards/cards";
 import {Footer} from "../component/Footer/footer";
+import { container } from "webpack";
 
 
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this blue button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+		<div>
+			<Navbar />
+			<div className = "container">
+				<Jumbotron/>
+				<div className = "d-flex">
+					<Cards/>
+					<Cards/>
+					<Cards/>
+					<Cards/>
+				</div>
+			</div>
+			<Footer/>
 		</div>
-	);
-};
+)};
 
 export default Home;
