@@ -4,7 +4,7 @@ export const Footer = () => {
     return (
         <footer className="footer bg-dark">
             <div className="copyright" style={{color:"white"}}>
-                Copyright Information 2023
+                Copyright Information 2024
             </div>
         </footer>
     );
